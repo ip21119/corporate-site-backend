@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "career"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Post": {
+      "type": "integer"
+    },
+    "Skill": {
+      "type": "richtext"
+    },
+    "Joining": {
+      "type": "string"
+    },
+    "Salary": {
+      "type": "string"
+    }
+  }
+}
